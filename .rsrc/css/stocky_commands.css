@@ -1,0 +1,14 @@
+dl {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: max-content;
+	grid-gap: 0.5rem 2rem;
+}
+
+dt {
+	grid-column: 1;
+}
+
+dd {
+	margin: 0;
+}

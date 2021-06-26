@@ -1,0 +1,54 @@
+
+@import url("common.css");
+
+body {
+	margin: auto;
+	max-width: 800px;
+}
+
+header {
+	position: relative;
+	height: 50%;
+	min-height: 20rem;
+	max-height: 700px; /* ADJUST THIS */
+	overflow: hidden;
+}
+
+.bg-img {
+	position: absolute;
+	z-index: -1;
+	max-width: 100%;
+}
+
+#main-title {
+	font-family: var(--font-primary);
+	font-size: 3rem;
+	position: relative;
+	top: 8rem;
+}
+
+#sub-title {
+	font-family: var(--font-secondary);
+	font-size: 1.25rem;
+	position: relative;
+	top: 7.5rem;
+}
+
+#title-flag {
+	height: 1em;
+	margin-right: 0.2em;
+}
+
+h3 {
+	margin-top: 2em;
+	color: #9a00ff;
+}
+
+.listicle > * {
+	display: block;
+}
+
+.col::after {
+	content: ":";
+}
+
