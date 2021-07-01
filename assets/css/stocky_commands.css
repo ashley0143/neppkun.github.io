@@ -12,3 +12,11 @@ dt {
 dd {
 	margin: 0;
 }
+
+.important {
+	color: #f34c4c;
+}
+
+#stocky-commands {
+	text-shadow: 0 0.1em 0.2em #000;
+}
